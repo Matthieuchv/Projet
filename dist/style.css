@@ -81,6 +81,7 @@ img {
   padding: 0 30px;
   white-space: nowrap;
 }
+
 @media screen and (max-width: 480px) {
   .header {
     padding: 0 16px;
@@ -90,6 +91,11 @@ img {
 .header-menu {
   display: flex;
   align-items: center;
+}
+
+.menu-link is-active{
+  color:#ffffff;
+  margin-bottom: 14px;
 }
 
 .header-menu a {
@@ -115,6 +121,7 @@ img {
   padding-left: 16px;
   border-radius: 4px;
 }
+
 .search-bar input {
   width: 100%;
   height: 100%;
@@ -132,18 +139,21 @@ img {
   background-position: 16px 48%;
   color: var(--theme-color);
 }
+
 .search-bar input::-moz-placeholder {
   font-family: var(--body-font);
   color: var(--inactive-color);
   font-size: 15px;
   font-weight: 500;
 }
+
 .search-bar input:-ms-input-placeholder {
   font-family: var(--body-font);
   color: var(--inactive-color);
   font-size: 15px;
   font-weight: 500;
 }
+
 .search-bar input::placeholder {
   font-family: var(--body-font);
   color: var(--inactive-color);
@@ -158,6 +168,7 @@ img {
   margin-left: auto;
   flex-shrink: 0;
 }
+
 .header-profile svg {
   width: 22px;
   color: #f9fafb;
@@ -168,6 +179,7 @@ img {
 .notification {
   position: relative;
 }
+
 .notification-number {
   position: absolute;
   background-color: #3a6df0;
@@ -182,6 +194,7 @@ img {
   right: -6px;
   top: -6px;
 }
+
 .notification + svg {
   margin-left: 22px;
 }
