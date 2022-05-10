@@ -86,10 +86,12 @@ img {
     padding: 0 16px;
   }
 }
+
 .header-menu {
   display: flex;
   align-items: center;
 }
+
 .header-menu a {
   padding: 20px 30px;
   text-decoration: none;
@@ -97,15 +99,13 @@ img {
   border-bottom: 2px solid transparent;
   transition: 0.3s;
 }
+
 @media screen and (max-width: 610px) {
   .header-menu a:not(.main-header-link) {
     display: none;
   }
 }
-.header-menu a.is-active, .header-menu a:hover {
-  color: var(--theme-color);
-  border-bottom: 2px solid var(--theme-color);
-}
+
 
 .search-bar {
   height: 40px;
@@ -418,9 +418,7 @@ img {
   top: 4px;
   left: -20px;
 }
-.status-circle.green {
-  background-color: #3bf083;
-}
+
 .status-button {
   font-size: 15px;
   margin-top: 0;
