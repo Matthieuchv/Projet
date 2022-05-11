@@ -50,7 +50,7 @@ $(function () {
 });
 
 $(function () {
- $(".status-button:not(.open)").on("click", function (e) {
+ $(".status-button:not(.open)").on("click", function () {
   $(".overlay-app").addClass("is-active");
  });
  $(".pop-up .close").click(function () {
