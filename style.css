@@ -336,6 +336,21 @@ img {
   }
 }
 
+.avengers{
+  position: absolute;
+	top: 120px;
+	left: 259px;
+  height: 290px;
+}
+
+.circlee{
+  position: absolute;
+	top: 120px;
+	left: 755px;
+  height: 290px;
+}
+
+
 .content-wrapper {
   display: flex;
   flex-direction: column;
